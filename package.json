@@ -3,6 +3,7 @@
   "version": "0.8.54",
   "description": "RTMP Server by Medooze",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "configure": "node-gyp configure",
     "swig": "swig -javascript -node -c++ src/rtmp-server.i",
